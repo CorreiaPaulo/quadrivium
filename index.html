@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>HTML CheatSheet</title>
+</head>
+
+<body>
+  <fieldset>
+    <legend><b>Headings</b></legend>
+    <h1>This is heading 1</h1>
+  </fieldset>
+
+  <fieldset>
+    <legend><b>Block Elements</b></legend>
+    <p>p</p>
+    <div>div</div>
+    <main>main</main>
+    <article>article</article>
+    <section>section</section>
+  </fieldset>
+
+  <fieldset>
+    <legend><b>Inline Elements</b></legend>
+    <span>span</span>
+    <a href="#">a</a>
+    <b>b</b>
+    <i>i</i>
+    <u>u</u>
+  </fieldset>
+
+  <fieldset>
+    <legend><b>Form</b></legend>
+    <form>
+      <div>
+        <label>Name:</label>
+        <input name="name" type="text" />
+      </div>
+      <div>
+        <select name="gender">
+          <option selected="selected" value="male">Male</option>
+          <option value="female">Female</option>
+        </select>
+      </div>
+      <div>
+        <input checked="checked" name="newsletter" type="radio" value="daily" /> Daily
+        <input name="newsletter" type="radio" value="weekly" /> Weekly
+      </div>
+      <div>
+        <textarea cols="20" name="comments" rows="5">textarea</textarea>
+      </div>
+      <div>
+        <input name="terms" type="checkbox" value="tandc" />
+        <label>Accept terms</label>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+  </fieldset>
+
+  <fieldset>
+    <legend><b>List</b></legend>
+    <ol>
+      <li>First</li>
+      <li>Second</li>
+      <li>Third</li>
+    </ol>
+
+    <ul>
+      <li>First</li>
+      <li>Second</li>
+      <li>Third</li>
+    </ul>
+  </fieldset>
+
+    <fieldset>
+      <legend><b>Table</b></legend>
+      <table>
+        <thead>
+          <tr>
+            <th>Hero</th>
+            <th>Publisher</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Spider Man</td>
+            <td>Marvel</td>
+          </tr>
+          <tr>
+            <td>Batman</td>
+            <td>DC</td>
+          </tr>
+          <tr>
+            <td>Wonder Woman</td>
+            <td>Marvel</td>
+          </tr>
+          <tr>
+            <td>Thor</td>
+            <td>Marvel</td>
+          </tr>
+          <tr>
+            <td>Flash</td>
+            <td>DC</td>
+          </tr>
+        </tbody>
+      </table>
+    </fieldset>
+</body>
+
+<style>
+  fieldset {
+    min-width: 150px;
+    display: inline-block;
+    margin-right: 25px;
+  }
+</style>
+
+</html>
