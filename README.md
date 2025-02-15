@@ -1,4 +1,4 @@
-### Quadrivium
+# Quadrivium
 
 ## Data Science
 
